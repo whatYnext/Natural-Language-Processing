@@ -6,6 +6,7 @@ Hightlight:
     1. Embedding words
     2. Attention mechanism
     3. Gate Recurrent Units
+    4. Greedy search for prediction (one can also use beam search)
 @author: mayao
 """
 
