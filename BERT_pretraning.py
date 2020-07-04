@@ -72,7 +72,7 @@ class MaskLM(nn.Block):
         mlm_Y_hat = self.mlp(masked_X)
         return mlm_Y_hat
     
-#Next sentence prediction
+#Next sentence prediction. Output is binary.
 class NextSentencePred(nn.Block):
     def __init__(self, **kwargs):
         super(NextSentencePred, self).__init__(**kwargs)
