@@ -27,7 +27,7 @@ d2l.DATA_HUB['wikitext-2'] = (
 #Read wiki
 def _read_wiki(data_dir):
     file_name = os.path.join(data_dir, 'wiki.train.tokens')
-    with open(file_name, 'r') as f:                         # Attention of decoding 
+    with open(file_name, 'r',encoding='gb18030',errors='ignore') as f:                    # Ignoration of error
         lines = f.readlines()
     # Uppercase letters are converted to lowercase ones
     paragraphs = [line.strip().lower().split(' . ')
