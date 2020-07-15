@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Implementation of machine translation
+Implementation of machine translation by RNN
 
 Hightlight:
     1. Embedding words
